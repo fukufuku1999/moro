@@ -1,0 +1,259 @@
+body{
+  margin: auto;
+  max-width: 500px; /* 最大幅 */
+  min-width: 100px; /* 最小幅 */
+
+}
+
+.flex_test-box {
+  background-color: #eee;     /* 背景色指定 */
+  padding:  5px;    /* 余白指定 */
+  justify-content: center;
+  align-items: stretch;
+  max-height: 700px;
+        
+  
+
+
+}
+
+.flex_test-itembox {
+  padding: 10px;
+  color:  rgb(0, 0, 0);               /* 文字色 */
+  margin:  0px;              /* 外側の余白 */
+  border-radius:  5px;        /* 角丸指定 */
+  display: flex;
+  flex-flow: column;/*縦に並べて*/
+  overflow-y: scroll;          /* 縦方向にスクロール可能にする */
+  
+  /*justify-content:center;/*中央よせ*/
+  
+  
+
+
+
+  
+}
+
+  
+
+
+.flex_test-itembox:nth-child(1) {
+  background-color:  #ffffff; /* 背景色指定 */
+  
+  
+
+  
+}
+
+.flex_test-itembox:nth-child(2) {
+  background-color:  #ffffff; /* 背景色指定 */
+  
+}
+
+.flex_test-itembox:nth-child(3) {
+  background-color: #ffffff; /* 背景色指定 */
+  
+  
+  
+}
+
+
+.sample1 {
+  
+  height: 300px;
+  padding: 1px;
+  color:  rgb(255, 255, 255);               /* 文字色 */
+  margin:  1px;              /* 外側の余白 */
+  border-radius:  50px;        /* 角丸指定 */
+  
+
+}
+
+.sample1:nth-child(1) {
+  background-color:  #9c872c; /* 背景色指定 */
+}
+
+.sample1:nth-child(2) {
+  background-color:  #6c8937; /* 背景色指定 */
+}
+
+.sample1:nth-child(3) {
+  background-color: #228566; /* 背景色指定 */
+}
+
+.sample1:nth-child(4) {
+  background-color: #788b8b; /* 背景色指定 */
+}
+
+.sample1:nth-child(5) {
+  background-color:  #80707a; /* 背景色指定 */
+}
+
+.sample1:nth-child(6) {
+  background-color:  #813d64; /* 背景色指定 */
+}
+
+.sample1:nth-child(7) {
+  background-color: #8f2764; /* 背景色指定 */
+}
+
+.sample1:nth-child(8) {
+  background-color: #ffffff00; /* 背景色指定 */
+}
+
+.flex_test-box {
+  display: flex;              /* フレックスボックスにする */
+
+}
+
+.sample2 {
+  
+  height: 300px;
+  padding: 1px;
+  color:  rgb(255, 255, 255);               /* 文字色 */
+  margin:  1px;              /* 外側の余白 */
+  border-radius:  50px;        /* 角丸指定 */
+
+}
+
+.sample2:nth-child(1) {
+  background-color:  #ffffff00; /* 背景色指定 */
+}
+
+.sample2:nth-child(2) {
+  background-color:  #8f2764; /* 背景色指定 */
+}
+
+.sample2:nth-child(3) {
+  background-color: #813d64; /* 背景色指定 */
+}
+
+.sample2:nth-child(4) {
+  background-color: #80707a; /* 背景色指定 */
+}
+
+.sample2:nth-child(5) {
+  background-color:  #788b8b; /* 背景色指定 */
+}
+
+.sample2:nth-child(6) {
+  background-color:  #228566; /* 背景色指定 */
+}
+
+.sample2:nth-child(7) {
+  background-color: #6c8937; /* 背景色指定 */
+}
+
+.sample2:nth-child(8) {
+  background-color: #9c872c; /* 背景色指定 */
+}
+
+.flex_test-box {
+  display: flex;              /* フレックスボックスにする */
+
+}
+
+
+
+
+.komento1, .komento2, .komento3, .komento4{
+  text-align: center;
+}
+
+
+
+ 
+video{
+  margin: 0 auto;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius:  5px; 
+
+  color: rgb(0, 0, 0, 1);
+  /*background-color: rgb(40, 190, 250);
+  margin:auto;
+  padding:10px;
+  font-weight: bold;
+  border-radius: 20px 20px 20px 20px;*/
+}
+
+canvas {
+  
+  margin: 0 auto;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius:  5px; 
+
+  color: rgb(0, 0, 0, 1);
+  /*background-color: rgb(40, 190, 250);
+  margin:auto;
+  padding:10px;
+  font-weight: bold;
+  border-radius: 20px 20px 20px 20px;*/
+}
+
+form {
+    /* 水平方向の中央揃え */
+  text-align: center;
+  font-size: 14px;
+  padding:2px;
+  margin:10px auto;     
+  border: 3px dotted rgb(0, 0, 0, 0.8);
+  border-radius: 50px;
+  background-color: rgba(241, 237, 237, 0.8);
+  color: rgb(0, 0, 0, 0.8);
+  width: 100px;}
+  
+  h1 {
+    /* 水平方向の中央揃え */
+    text-align: center;
+    font-size: 18px;
+    padding:2px;
+    margin:10px auto;     
+    /*border: 1px dotted rgb(0, 0, 0, 0.8);*/
+    /*border-radius: 5px;*/
+    /*background-color: rgba(241, 237, 237, 0.5);*/
+    /*color: rgb(0, 0, 0, 1);*/
+    /*width: 250px;*/
+    
+
+  }
+
+    
+  div {
+    /* 水平方向の中央揃え */
+    text-align: center;
+    font-size: 18px;
+    padding:2px;
+    margin:10px auto;     
+    /*border: 1px dotted rgb(0, 0, 0, 0.8);*/
+    /*border-radius: 5px;*/
+    /*background-color: rgba(241, 237, 237, 0.5);*/
+    /*color: rgb(0, 0, 0, 1);*/
+    /*width: 250px;*/
+    
+
+  }
+
+  h2 {
+    /* 水平方向の中央揃え */
+    text-align: center;
+    font-size: 18px;
+    padding:2px;
+    margin:10px auto;     
+    /*border: 1px dotted rgb(0, 0, 0, 0.8);*/
+    /*border-radius: 5px;*/
+    /*background-color: rgba(241, 237, 237, 0.5);*/
+    /*color: rgb(0, 0, 0, 1);*/
+    /*width: 250px;*/
+    
+
+  }
+
+  p {size:10px;
+  }

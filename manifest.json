@@ -1,0 +1,94 @@
+{		"name": "moro0204",
+		"short_name": "moro0204",
+		"description": "sample",
+	"icons": [
+		{
+		"src": "/moro/icon/256.png",
+		"sizes": "256x256",
+		"type": "image/png",
+		"purpose": "any"
+		},
+		{
+		"src": "/moro/icon/256.png",
+		"sizes": "256x256",
+		"type": "image/png",
+		"purpose": "maskable"
+		},
+		{
+		"src": "/moro/icon/192.png",
+		"sizes": "192x192",
+		"type": "image/png",
+		"purpose": "any"
+		},
+		{
+		"src": "/moro/icon/192.png",
+		"sizes": "192x192",
+		"type": "image/png",
+		"purpose": "maskable"
+		},
+		{
+		"src": "/moro/icon/512.png",
+		"sizes": "512x512",
+		"type": "image/png",
+		"purpose": "maskable"
+		},
+	    {
+		"src": "/moro/icon/512.png",
+		"sizes": "512x512",
+		"type": "image/png",
+		"purpose": "any"
+	    },	
+		{
+		"src": "/moro/icon/72lg.png",
+		"sizes": "72x72",
+		"type": "image/png",
+		"purpose": "maskable"
+		},
+	    {
+		"src": "/moro/icon/72.png",
+		"sizes": "72x72",
+		"type": "image/png",
+		"purpose": "any"
+	    },	
+		{
+		"src": "/moro/icon/114.png",
+		"sizes": "114x114",
+		"type": "image/png",
+		"purpose": "maskable"
+		},
+	    {
+		"src": "/moro/icon/114.png",
+		"sizes": "114x114",
+		"type": "image/png",
+		"purpose": "any"
+	    },	
+		{
+		"src": "/moro/icon/120.png",
+		"sizes": "120x120",
+		"type": "image/png",
+		"purpose": "maskable"
+		},
+	    {
+		"src": "/moro/icon/120.png",
+		"sizes": "120x120",
+		"type": "image/png",
+		"purpose": "any"
+	    },	
+		{
+		"src": "/moro/icon/144.png",
+		"sizes": "144x144",
+		"type": "image/png",
+		"purpose": "maskable"
+		},
+	    {
+		"src": "/moro/icon/144.png",
+		"sizes": "144x144",
+		"type": "image/png",
+		"purpose": "any"
+	    }	
+		],
+	"start_url": "/moro/index.html",
+	"display": "standalone",
+	"theme_color": "#317EFB",
+	"orientation": "any", 
+	"background_color": "#0000FF"}
